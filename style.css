@@ -19,4 +19,33 @@ body{
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.image-container{
+    display: flex;
+    /* transform: translateX(-500px
+    ); */
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.btn.prev{
+    left: 10px;
+}
+
+.btn.next{
+    right: 10px;
+}
+
+.btn:hover{
+    opacity: 1;
 }
